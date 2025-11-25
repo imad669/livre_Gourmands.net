@@ -1,0 +1,104 @@
+{
+  "ouvrages": [
+    {
+      "id": 1,
+      "titre": "Pâtisseries pour débutants",
+      "auteur": "Claire Dupont",
+      "description": "Recettes simples et gourmandes pour débuter en pâtisserie.",
+      "prix": 19.90,
+      "stock": 12,
+      "image": "/images/Debuter-en-patisserie-1-1280x640.jpg",
+      "categorie": "Cuisine"
+    },
+    {
+      "id": 2,
+      "titre": "Le grand livre des pains",
+      "auteur": "Marc Petit",
+      "description": "Tout sur la fabrication des pains : techniques et astuces.",
+      "prix": 24.50,
+      "stock": 5,
+      "image": "/images/9782036006140-001-X-1.jpeg",
+      "categorie": "Boulangerie"
+    },
+    {
+      "id": 3,
+      "titre": "Menus de saison",
+      "auteur": "Sophie Martin",
+      "description": "Menus équilibrés et de saison pour toute la famille.",
+      "prix": 14.00,
+      "stock": 20,
+      "image": "/images/50-recettes-de-fin-d-ete.jpg",
+      "categorie": "Cuisine"
+    },
+    {
+      "id": 4,
+      "titre": "Desserts express",
+      "auteur": "Laurent Noël",
+      "description": "Desserts rapides à préparer en moins de 20 minutes.",
+      "prix": 12.00,
+      "stock": 9,
+      "image": "/images/i57121-desserts-express-pour-le-soir.jpg",
+      "categorie": "Dessert"
+    },
+    {
+      "id": 5,
+      "titre": "Gâteaux du monde",
+      "auteur": "Fatima Benali",
+      "description": "Un tour du monde des meilleurs gâteaux traditionnels et modernes.",
+      "prix": 22.00,
+      "stock": 8,
+      "image": "/images/gateaux-du-monde.jpg",
+      "categorie": "Pâtisserie"
+    },
+    {
+      "id": 6,
+      "titre": "Chocolat & Gourmandises",
+      "auteur": "Jean-Pierre Cacao",
+      "description": "Recettes créatives autour du chocolat pour petits et grands gourmands.",
+      "prix": 18.50,
+      "stock": 15,
+      "image": "/images/chocolat-gourmandises.jpg",
+      "categorie": "Chocolat"
+    },
+    {
+      "id": 7,
+      "titre": "Cuisine végétale facile",
+      "auteur": "Emma Vert",
+      "description": "40 recettes végétales simples, économiques et savoureuses.",
+      "prix": 16.90,
+      "stock": 25,
+      "image": "/images/bienent-cuisine-vegane-vegetale-vegetarienne-vegetalienne.jpg",
+      "categorie": "Vegan"
+    },
+    {
+      "id": 8,
+      "titre": "Art du brunch",
+      "auteur": "Paul Matin",
+      "description": "Idées gourmandes pour des brunchs mémorables entre amis.",
+      "prix": 21.00,
+      "stock": 10,
+      "image": "/images/penelope-brunch-repas-latkes-crepes-de-pomme-de-terre.webp",
+      "categorie": "Cuisine"
+    },
+    {
+      "id": 9,
+      "titre": "Recettes sans gluten",
+      "auteur": "Léa Santé",
+      "description": "Pâtisseries et plats du quotidien adaptés sans gluten.",
+      "prix": 19.00,
+      "stock": 9,
+      "image": "/images/téléchargement.jpeg",
+      "categorie": "Santé"
+    },
+    {
+      "id": 10,
+      "titre": "Street Food maison",
+      "auteur": "Nico Food",
+      "description": "Les classiques de la street food à réaliser chez soi.",
+      "prix": 17.50,
+      "stock": 14,
+      "image": "/images/1087334.jpg",
+      "categorie": "Cuisine"
+    }
+  ]
+}

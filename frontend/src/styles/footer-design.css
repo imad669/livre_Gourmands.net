@@ -1,0 +1,11 @@
+/* footer.css from design */
+footer{
+  text-align: center;
+  padding: 2rem 0;
+  color: #666;
+}
+
+footer span{
+  color: var(--bodyFont);
+  font-weight: 600;
+}
