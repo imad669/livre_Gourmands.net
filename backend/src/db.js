@@ -27,7 +27,19 @@ console.log('DEBUG DB ENV:', {
   DB_NAME
 });
 
-const pool = mysql.createPool({
+const useSsl = String(process.env.DB_SSL || '').toLowerCase() === 'true'
+
+let sslOptions = undefined
+if (useSsl) {
+  const ca = process.env.DB_CA || process.env.DB_CERT || ''
+  if (ca) {
+    sslOptions = { ca }
+  } else {
+    sslOptions = { rejectUnauthorized: true }
+  }
+}
+
+const pool = mysql.createPool(Object.assign({
   host: DB_HOST,
   port: DB_PORT,
   user: DB_USER,
@@ -36,7 +48,8 @@ const pool = mysql.createPool({
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
-})
+}, useSsl ? { ssl: sslOptions } : {}))
+
 
 async function init(){
   // Create ouvrages table if not exists
